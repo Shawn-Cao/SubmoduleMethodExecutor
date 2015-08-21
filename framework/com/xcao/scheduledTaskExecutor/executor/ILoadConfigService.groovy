@@ -12,5 +12,7 @@ interface ILoadConfigService {
      */
     public Map<String, Map<String, String>> getLoadablesConfig()
 
+    /**
+     * Search loadable from configs and existing definitions objects, if not found, try assemble on site 
     public Map<String, Loadable> getLoadables()
 }
